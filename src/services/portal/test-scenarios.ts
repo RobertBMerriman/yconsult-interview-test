@@ -33,6 +33,12 @@ const allActive: HouseServicesResponse = {
   services: [
     {
       endDate: null,
+      name: 'TV Licence',
+      serviceId: 6,
+      startDate: '2018-10-27',
+    },
+    {
+      endDate: null,
       name: 'Electricity',
       serviceId: 16,
       startDate: '2018-10-27',
@@ -45,20 +51,14 @@ const allActive: HouseServicesResponse = {
     },
     {
       endDate: null,
-      name: 'Telephone Line',
-      serviceId: 3,
-      startDate: '2018-10-27',
-    },
-    {
-      endDate: null,
       name: 'Broadband',
       serviceId: 4,
       startDate: '2018-10-27',
     },
     {
       endDate: null,
-      name: 'TV Licence',
-      serviceId: 6,
+      name: 'Telephone Line',
+      serviceId: 3,
       startDate: '2018-10-27',
     },
     {
@@ -74,12 +74,6 @@ const allNotActive: HouseServicesResponse = {
   services: [
     {
       endDate: null,
-      name: 'Electricity',
-      serviceId: 16,
-      startDate: null,
-    },
-    {
-      endDate: null,
       name: 'Gas',
       serviceId: 15,
       startDate: null,
@@ -92,20 +86,26 @@ const allNotActive: HouseServicesResponse = {
     },
     {
       endDate: null,
-      name: 'Broadband',
-      serviceId: 4,
-      startDate: null,
-    },
-    {
-      endDate: null,
       name: 'TV Licence',
       serviceId: 6,
       startDate: null,
     },
     {
       endDate: null,
+      name: 'Broadband',
+      serviceId: 4,
+      startDate: null,
+    },
+    {
+      endDate: null,
       name: 'Water',
       serviceId: 7,
+      startDate: null,
+    },
+    {
+      endDate: null,
+      name: 'Electricity',
+      serviceId: 16,
       startDate: null,
     },
   ],
@@ -115,15 +115,9 @@ const evenSplit: HouseServicesResponse = {
   services: [
     {
       endDate: null,
-      name: 'Electricity',
-      serviceId: 16,
-      startDate: '2018-10-27',
-    },
-    {
-      endDate: null,
-      name: 'Gas',
-      serviceId: 15,
-      startDate: '2018-11-01',
+      name: 'Water',
+      serviceId: 7,
+      startDate: null,
     },
     {
       endDate: null,
@@ -139,15 +133,21 @@ const evenSplit: HouseServicesResponse = {
     },
     {
       endDate: null,
+      name: 'Electricity',
+      serviceId: 16,
+      startDate: '2018-10-27',
+    },
+    {
+      endDate: null,
       name: 'TV Licence',
       serviceId: 6,
       startDate: null,
     },
     {
       endDate: null,
-      name: 'Water',
-      serviceId: 7,
-      startDate: null,
+      name: 'Gas',
+      serviceId: 15,
+      startDate: '2018-11-01',
     },
   ],
 }
@@ -167,7 +167,7 @@ const oneNotActive: HouseServicesResponse = {
   services: [
     {
       endDate: null,
-      name: 'Electricity',
+      name: 'TV Licence',
       serviceId: 16,
       startDate: '2018-10-27',
     },
@@ -178,15 +178,21 @@ const fourNotActive: HouseServicesResponse = {
   services: [
     {
       endDate: null,
-      name: 'Electricity',
-      serviceId: 16,
-      startDate: '2018-10-27',
+      name: 'TV Licence',
+      serviceId: 6,
+      startDate: null,
     },
     {
       endDate: null,
       name: 'Gas',
       serviceId: 15,
       startDate: null,
+    },
+    {
+      endDate: null,
+      name: 'Electricity',
+      serviceId: 16,
+      startDate: '2018-10-27',
     },
     {
       endDate: null,
@@ -198,12 +204,6 @@ const fourNotActive: HouseServicesResponse = {
       endDate: null,
       name: 'Broadband',
       serviceId: 4,
-      startDate: null,
-    },
-    {
-      endDate: null,
-      name: 'TV Licence',
-      serviceId: 6,
       startDate: null,
     },
     {
@@ -219,14 +219,8 @@ const fiveNotActive: HouseServicesResponse = {
   services: [
     {
       endDate: null,
-      name: 'Electricity',
-      serviceId: 16,
-      startDate: null,
-    },
-    {
-      endDate: null,
-      name: 'Gas',
-      serviceId: 15,
+      name: 'Water',
+      serviceId: 7,
       startDate: null,
     },
     {
@@ -234,6 +228,12 @@ const fiveNotActive: HouseServicesResponse = {
       name: 'Telephone Line',
       serviceId: 3,
       startDate: '2018-10-27',
+    },
+    {
+      endDate: null,
+      name: 'Electricity',
+      serviceId: 16,
+      startDate: null,
     },
     {
       endDate: null,
@@ -249,8 +249,8 @@ const fiveNotActive: HouseServicesResponse = {
     },
     {
       endDate: null,
-      name: 'Water',
-      serviceId: 7,
+      name: 'Gas',
+      serviceId: 15,
       startDate: null,
     },
   ],
